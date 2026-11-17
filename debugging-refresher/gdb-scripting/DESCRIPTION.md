@@ -47,6 +47,9 @@ Finally, we output the current value using a formatted string.
 Use gdb scripting to help you collect the random values in this level.
 This may feel difficult, but will serve you well in your journey ahead.
 
+Additionally, `/challenge/embryogdb_levelXYZ` already runs an instance of gdb. To run your script for this challenge use the following command:
+`/challenge/embryogdb -x your_script.gdb`
+
 ----
 **RELEVANT DOCUMENTATION:**
 - gdb's [run](https://sourceware.org/gdb/current/onlinedocs/gdb#Starting) command
